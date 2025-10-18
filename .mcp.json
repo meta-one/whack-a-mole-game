@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "context7": {
+      "type": "stdio",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx -y @upstash/context7-mcp@latest"
+      ],
+      "env": {}
+    },
+    "exa": {
+      "type": "stdio",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx -y exa-mcp-server@latest --tools=get_code_context_exa"
+      ],
+      "env": {
+        "EXA_API_KEY": "63454c4f-6e01-4841-97fe-5a761bbe7247"
+      }
+    }
+  }
+}
