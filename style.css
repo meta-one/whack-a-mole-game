@@ -17,7 +17,7 @@ body {
 .container {
     background: white;
     border-radius: 20px;
-    padding: 40px;
+    padding: 25px;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
     max-width: 600px;
     width: 100%;
@@ -26,15 +26,15 @@ body {
 h1 {
     text-align: center;
     color: #333;
-    margin-bottom: 30px;
-    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-size: 2em;
 }
 
 .scoreboard {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 30px;
-    padding: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
     background: #f7f7f7;
     border-radius: 10px;
 }
@@ -52,7 +52,7 @@ h1 {
 
 .value {
     display: block;
-    font-size: 1.8em;
+    font-size: 1.5em;
     font-weight: bold;
     color: #667eea;
 }
@@ -60,8 +60,8 @@ h1 {
 .game-board {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-    margin-bottom: 30px;
+    gap: 12px;
+    margin-bottom: 20px;
 }
 
 .hole {
@@ -97,7 +97,7 @@ h1 {
 
 .mole::before {
     content: '🐹';
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 .mole.up {
@@ -117,8 +117,8 @@ h1 {
 
 .start-btn {
     width: 100%;
-    padding: 15px;
-    font-size: 1.2em;
+    padding: 12px;
+    font-size: 1.1em;
     font-weight: bold;
     color: white;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
